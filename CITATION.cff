@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the manuscript below."
+title: "PAVT: Period-Aware Video Transformers for Risk-Controlled Measurement of Periodic Structures"
+type: software
+authors:
+  - family-names: Huang
+    given-names: Jinhui
+  - family-names: Huang
+    given-names: Pengcheng
+    email: 570532780@qq.com
+repository-code: "https://github.com/LuoluoKing/pavt"
+license: MIT
+abstract: >-
+  Experiment scripts, result files and figure sources reproducing every number in
+  "Period-Aware Video Transformers for Risk-Controlled Measurement of Periodic
+  Structures". Includes the synthetic benchmark, the 33-video escalator inventory,
+  the CUHK Avenue anomaly evaluation, and the clustered statistics used in the paper.
+  All runs on a single CPU workstation.
+keywords:
+  - periodic structures
+  - harmonic ambiguity
+  - phase correlation
+  - selective prediction
+  - video anomaly detection
+  - escalator inspection
+version: "1.0.0"
+date-released: "2026-10-30"
