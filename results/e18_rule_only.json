@@ -1,0 +1,24 @@
+{
+ "n_heldout": 922,
+ "n_divisible_pitch": 5,
+ "rule_coverage": 0.6832971800433839,
+ "har_phase_all": 0.527114967462039,
+ "har_rule_reported": 0.5603174603174603,
+ "mae_phase_all": 0.6939493428241456,
+ "mae_rule_all": 0.6766959597292067,
+ "mae_phase_on_reported": 0.6792556195526305,
+ "mae_rule_on_reported": 0.6540054303247995,
+ "rows": [
+  {
+   "policy": "phase-only",
+   "mean_err_all": 0.6939493428241456,
+   "median": 0.9473567729159211
+  },
+  {
+   "policy": "rule-only",
+   "mean_err_all": 0.6766959597292067,
+   "median": 0.9003664202869646
+  }
+ ],
+ "note": "A=纯相位（当前系统不命名分支）；B=rule-only（非整除用边界残差，整除弃权）"
+}

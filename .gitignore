@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+*.pt
+*.mp4
+*.avi
+*.mat
+.ipynb_checkpoints/
+.DS_Store

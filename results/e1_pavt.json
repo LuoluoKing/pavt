@@ -1,0 +1,453 @@
+{
+ "seed": 20261010,
+ "cells": [
+  {
+   "pitch": 8.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 7.067150910695394,
+   "har": 0.9166666666666666,
+   "mae_at_80pct_coverage": 6.640927950541179
+  },
+  {
+   "pitch": 8.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 5.569434503714244,
+   "har": 0.8333333333333334,
+   "mae_at_80pct_coverage": 4.7252275413937035
+  },
+  {
+   "pitch": 8.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 7.016505082448323,
+   "har": 0.9166666666666666,
+   "mae_at_80pct_coverage": 6.594928211636013
+  },
+  {
+   "pitch": 12.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 12.10422976811727,
+   "har": 1.0,
+   "mae_at_80pct_coverage": 12.080579651726616
+  },
+  {
+   "pitch": 12.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 12.99183702468872,
+   "har": 1.0,
+   "mae_at_80pct_coverage": 13.345125834147135
+  },
+  {
+   "pitch": 12.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 12.175282080968222,
+   "har": 1.0,
+   "mae_at_80pct_coverage": 12.197978973388672
+  },
+  {
+   "pitch": 16.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 8.430389960606893,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 5.87947580549452
+  },
+  {
+   "pitch": 16.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 4.500656584898631,
+   "har": 0.25,
+   "mae_at_80pct_coverage": 0.5747421847449409
+  },
+  {
+   "pitch": 16.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 13.461237033208212,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 12.692927148607042
+  },
+  {
+   "pitch": 24.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 18.940276583035786,
+   "har": 0.75,
+   "mae_at_80pct_coverage": 17.138512240515816
+  },
+  {
+   "pitch": 24.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 20.483034292856853,
+   "har": 0.9166666666666666,
+   "mae_at_80pct_coverage": 19.22350396050347
+  },
+  {
+   "pitch": 24.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 20.450767596562702,
+   "har": 0.75,
+   "mae_at_80pct_coverage": 16.50272316402859
+  },
+  {
+   "pitch": 32.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 28.511743783950806,
+   "har": 0.9166666666666666,
+   "mae_at_80pct_coverage": 26.608026610480415
+  },
+  {
+   "pitch": 32.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 17.48357292016347,
+   "har": 0.4166666666666667,
+   "mae_at_80pct_coverage": 12.38972552617391
+  },
+  {
+   "pitch": 32.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 23.176281054814655,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 19.290318489074707
+  },
+  {
+   "pitch": 44.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 27.783335606257122,
+   "har": 0.5833333333333334,
+   "mae_at_80pct_coverage": 26.29908498128255
+  },
+  {
+   "pitch": 44.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 17.82482572396596,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 12.786926958296034
+  },
+  {
+   "pitch": 44.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 35.1546905040741,
+   "har": 0.8333333333333334,
+   "mae_at_80pct_coverage": 31.949905925326878
+  },
+  {
+   "pitch": 56.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 21.337265253067017,
+   "har": 0.4166666666666667,
+   "mae_at_80pct_coverage": 8.776317914326986
+  },
+  {
+   "pitch": 56.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 13.256808439890543,
+   "har": 0.4166666666666667,
+   "mae_at_80pct_coverage": 4.729948043823242
+  },
+  {
+   "pitch": 56.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 34.26984620094299,
+   "har": 0.5833333333333334,
+   "mae_at_80pct_coverage": 27.405508995056152
+  },
+  {
+   "pitch": 70.0,
+   "regime": "small",
+   "degradation": {},
+   "mae": 38.89862902959188,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 28.06493992275662
+  },
+  {
+   "pitch": 70.0,
+   "regime": "small",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 26.934080600738525,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 19.894699732462566
+  },
+  {
+   "pitch": 70.0,
+   "regime": "small",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 38.63823155562083,
+   "har": 0.5833333333333334,
+   "mae_at_80pct_coverage": 27.228649934132893
+  },
+  {
+   "pitch": 8.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 2.8693186044692993,
+   "har": 0.25,
+   "mae_at_80pct_coverage": 3.7603405316670737
+  },
+  {
+   "pitch": 8.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 1.5666361649831135,
+   "har": 0.16666666666666666,
+   "mae_at_80pct_coverage": 1.215240478515625
+  },
+  {
+   "pitch": 8.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 4.066119472185771,
+   "har": 0.4166666666666667,
+   "mae_at_80pct_coverage": 5.341651015811497
+  },
+  {
+   "pitch": 12.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 1.5283983548482258,
+   "har": 0.08333333333333333,
+   "mae_at_80pct_coverage": 1.9168639712863498
+  },
+  {
+   "pitch": 12.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 4.203668038050334,
+   "har": 0.3333333333333333,
+   "mae_at_80pct_coverage": 4.155884000990126
+  },
+  {
+   "pitch": 12.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 3.333798964818319,
+   "har": 0.25,
+   "mae_at_80pct_coverage": 4.329852951897515
+  },
+  {
+   "pitch": 16.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 9.287079652150473,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 10.650315920511881
+  },
+  {
+   "pitch": 16.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 8.337387959162394,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 9.10404724544949
+  },
+  {
+   "pitch": 16.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 9.364398320515951,
+   "har": 0.4166666666666667,
+   "mae_at_80pct_coverage": 10.525382359822592
+  },
+  {
+   "pitch": 24.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 14.312317689259848,
+   "har": 0.5833333333333334,
+   "mae_at_80pct_coverage": 16.26592805650499
+  },
+  {
+   "pitch": 24.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 12.687235832214355,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 16.64495701260037
+  },
+  {
+   "pitch": 24.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 8.62877098719279,
+   "har": 0.4166666666666667,
+   "mae_at_80pct_coverage": 8.673685921563042
+  },
+  {
+   "pitch": 32.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 16.672965844472248,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 21.602727466159397
+  },
+  {
+   "pitch": 32.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 15.9732666015625,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 17.642141977945965
+  },
+  {
+   "pitch": 32.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 21.118103504180908,
+   "har": 0.5833333333333334,
+   "mae_at_80pct_coverage": 27.820628484090168
+  },
+  {
+   "pitch": 44.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 22.312252044677734,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 29.01214090983073
+  },
+  {
+   "pitch": 44.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 27.150728225708008,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 30.815448760986328
+  },
+  {
+   "pitch": 44.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 25.331995805104572,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 24.311262978447807
+  },
+  {
+   "pitch": 56.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 27.156357288360596,
+   "har": 0.3333333333333333,
+   "mae_at_80pct_coverage": 21.521152284410263
+  },
+  {
+   "pitch": 56.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 36.889262199401855,
+   "har": 0.5833333333333334,
+   "mae_at_80pct_coverage": 39.502244313557945
+  },
+  {
+   "pitch": 56.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 32.521018505096436,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 27.301958931816948
+  },
+  {
+   "pitch": 70.0,
+   "regime": "large",
+   "degradation": {},
+   "mae": 57.04897912343343,
+   "har": 0.6666666666666666,
+   "mae_at_80pct_coverage": 50.11977089775933
+  },
+  {
+   "pitch": 70.0,
+   "regime": "large",
+   "degradation": {
+    "noise": 20
+   },
+   "mae": 48.21341292063395,
+   "har": 0.5,
+   "mae_at_80pct_coverage": 53.55564329359267
+  },
+  {
+   "pitch": 70.0,
+   "regime": "large",
+   "degradation": {
+    "occl": 0.15
+   },
+   "mae": 32.52528667449951,
+   "har": 0.3333333333333333,
+   "mae_at_80pct_coverage": 36.05963007609049
+  }
+ ]
+}

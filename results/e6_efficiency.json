@@ -1,0 +1,21 @@
+{
+ "patch": 96,
+ "n_repeat": 150,
+ "rows": [
+  {
+   "method": "Autocorrelation only",
+   "latency_ms": 0.8463813333340415,
+   "mem_mb": 1.2060089111328125
+  },
+  {
+   "method": "Phase correlation",
+   "latency_ms": 0.07179066666139988,
+   "mem_mb": 0.00959014892578125
+  },
+  {
+   "method": "PAVT (hybrid)",
+   "latency_ms": 0.9685406666661341,
+   "mem_mb": 0.1477813720703125
+  }
+ ]
+}

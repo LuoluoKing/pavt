@@ -1,0 +1,205 @@
+{
+ "seed": 20261010,
+ "patch": 32,
+ "step": 16,
+ "acf_bins": 16,
+ "top_q": 0.1,
+ "acf_weight": 2.0,
+ "n_train_frames_per_vol": 150,
+ "n_bank_patches": 129600,
+ "pooled": {
+  "auc_ours": 0.8443372807707841,
+  "auc_appear": 0.8477550117224156,
+  "auc_framediff": 0.7889148330131137,
+  "n_frames": 15324,
+  "n_abnormal": 3712
+ },
+ "per_video": [
+  {
+   "video": 1,
+   "n_frames": 1439,
+   "n_abn": 408,
+   "auc_ours": 0.7636265951579468,
+   "auc_appear": 0.7548758106540385,
+   "auc_framediff": 0.896636855518153
+  },
+  {
+   "video": 2,
+   "n_frames": 1211,
+   "n_abn": 89,
+   "auc_ours": 0.7688717979530933,
+   "auc_appear": 0.7794267860361713,
+   "auc_framediff": 0.8875102645756975
+  },
+  {
+   "video": 3,
+   "n_frames": 923,
+   "n_abn": 87,
+   "auc_ours": 0.6828631138975967,
+   "auc_appear": 0.7009569377990431,
+   "auc_framediff": 0.8903233789803663
+  },
+  {
+   "video": 4,
+   "n_frames": 947,
+   "n_abn": 93,
+   "auc_ours": 0.9387197501951601,
+   "auc_appear": 0.9494850293369596,
+   "auc_framediff": 0.983191055375085
+  },
+  {
+   "video": 5,
+   "n_frames": 1007,
+   "n_abn": 318,
+   "auc_ours": 0.967325720440708,
+   "auc_appear": 0.9720723681207839,
+   "auc_framediff": 0.9838408595083569
+  },
+  {
+   "video": 6,
+   "n_frames": 1283,
+   "n_abn": 429,
+   "auc_ours": 0.960580403203354,
+   "auc_appear": 0.9677180742754513,
+   "auc_framediff": 0.9581770688328065
+  },
+  {
+   "video": 7,
+   "n_frames": 605,
+   "n_abn": 123,
+   "auc_ours": 0.9519954120703032,
+   "auc_appear": 0.9504604797085315,
+   "auc_framediff": 0.9236075970718214
+  },
+  {
+   "video": 8,
+   "n_frames": 36,
+   "n_abn": 36,
+   "auc_ours": NaN,
+   "auc_appear": NaN,
+   "auc_framediff": NaN
+  },
+  {
+   "video": 9,
+   "n_frames": 1175,
+   "n_abn": 289,
+   "auc_ours": 0.799315769329907,
+   "auc_appear": 0.7584493895818851,
+   "auc_framediff": 0.8042619916111445
+  },
+  {
+   "video": 10,
+   "n_frames": 841,
+   "n_abn": 133,
+   "auc_ours": 0.4956352746272461,
+   "auc_appear": 0.622191070897583,
+   "auc_framediff": 0.4384743638757912
+  },
+  {
+   "video": 11,
+   "n_frames": 472,
+   "n_abn": 144,
+   "auc_ours": 0.7512491531165312,
+   "auc_appear": 0.7382494918699187,
+   "auc_framediff": 0.8317348407859079
+  },
+  {
+   "video": 12,
+   "n_frames": 1271,
+   "n_abn": 190,
+   "auc_ours": 0.837723355567457,
+   "auc_appear": 0.8461853060032134,
+   "auc_framediff": 0.723355567457033
+  },
+  {
+   "video": 13,
+   "n_frames": 549,
+   "n_abn": 75,
+   "auc_ours": 0.8565963431786217,
+   "auc_appear": 0.8511954992967651,
+   "auc_framediff": 0.8971870604781997
+  },
+  {
+   "video": 14,
+   "n_frames": 507,
+   "n_abn": 74,
+   "auc_ours": 0.8247300418201111,
+   "auc_appear": 0.8359965045877286,
+   "auc_framediff": 0.8418325947194307
+  },
+  {
+   "video": 15,
+   "n_frames": 1001,
+   "n_abn": 90,
+   "auc_ours": 0.9914623734601781,
+   "auc_appear": 0.9945847054518844,
+   "auc_framediff": 0.9275643371142822
+  },
+  {
+   "video": 16,
+   "n_frames": 740,
+   "n_abn": 109,
+   "auc_ours": 0.715116532662586,
+   "auc_appear": 0.680134924904404,
+   "auc_framediff": 0.31802585091379637
+  },
+  {
+   "video": 17,
+   "n_frames": 426,
+   "n_abn": 384,
+   "auc_ours": 0.2604166666666667,
+   "auc_appear": 0.36706349206349204,
+   "auc_framediff": 0.9379340277777778
+  },
+  {
+   "video": 18,
+   "n_frames": 294,
+   "n_abn": 294,
+   "auc_ours": NaN,
+   "auc_appear": NaN,
+   "auc_framediff": NaN
+  },
+  {
+   "video": 19,
+   "n_frames": 248,
+   "n_abn": 140,
+   "auc_ours": 0.899537037037037,
+   "auc_appear": 0.9658730158730159,
+   "auc_framediff": 0.8396164021164021
+  },
+  {
+   "video": 20,
+   "n_frames": 273,
+   "n_abn": 154,
+   "auc_ours": 0.6149732620320856,
+   "auc_appear": 0.599694423223835,
+   "auc_framediff": 0.5022918258212375
+  },
+  {
+   "video": 21,
+   "n_frames": 76,
+   "n_abn": 53,
+   "auc_ours": 0.6587366694011485,
+   "auc_appear": 0.627563576702215,
+   "auc_framediff": 1.0
+  }
+ ],
+ "per_video_summary": {
+  "auc_ours": {
+   "median": 0.799315769329907,
+   "min": 0.2604166666666667,
+   "max": 0.9914623734601781
+  },
+  "auc_appear": {
+   "median": 0.7794267860361713,
+   "min": 0.36706349206349204,
+   "max": 0.9945847054518844
+  },
+  "auc_framediff": {
+   "median": 0.8903233789803663,
+   "min": 0.31802585091379637,
+   "max": 1.0
+  }
+ },
+ "elapsed_s": 912.0
+}

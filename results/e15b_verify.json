@@ -1,0 +1,62 @@
+[
+ {
+  "mode": "negative",
+  "pitch": 8.0,
+  "max_diff": 8.574737374129749e-16
+ },
+ {
+  "mode": "negative",
+  "pitch": 16.0,
+  "max_diff": 4.725206806999091e-16
+ },
+ {
+  "mode": "negative",
+  "pitch": 33.0,
+  "max_diff": 0.7679524719715118
+ },
+ {
+  "mode": "negative",
+  "pitch": 70.0,
+  "max_diff": 0.9472882568836212
+ },
+ {
+  "mode": "rowmod",
+  "pitch": 8.0,
+  "max_diff": 7.14081153693273e-16
+ },
+ {
+  "mode": "rowmod",
+  "pitch": 16.0,
+  "max_diff": 3.664851179547416e-16
+ },
+ {
+  "mode": "rowmod",
+  "pitch": 33.0,
+  "max_diff": 0.7585243999958038
+ },
+ {
+  "mode": "rowmod",
+  "pitch": 70.0,
+  "max_diff": 0.8825507462024689
+ },
+ {
+  "mode": "positive",
+  "pitch": 8.0,
+  "max_diff": 4.440892098500626e-15
+ },
+ {
+  "mode": "positive",
+  "pitch": 16.0,
+  "max_diff": 5.728750807065808e-15
+ },
+ {
+  "mode": "positive",
+  "pitch": 33.0,
+  "max_diff": 0.6950976431369782
+ },
+ {
+  "mode": "positive",
+  "pitch": 70.0,
+  "max_diff": 0.8060490310192108
+ }
+]

@@ -1,0 +1,123 @@
+{
+ "note": "e15 v2 partial rescue (2026-10-30 00:35). negative 完成训练960步+评测；rowmod 训练至400/96步被中断；positive 未跑。明日重跑 rowmod/positive（可跳过 negative）。",
+ "seed": 20261010,
+ "steps": 960,
+ "k_max": 3,
+ "negative": {
+  "mean_acc": 0.5938125,
+  "mean_acc_divisible": 0.5334,
+  "mean_acc_nondivisible": 0.6212727272727273,
+  "ce_at_steps": {
+   "200": 0.6929,
+   "400": 0.6829,
+   "600": 0.6736,
+   "800": 0.6629
+  },
+  "per_pitch": [
+   {
+    "pitch": 8,
+    "w_mod_p": 0,
+    "acc": 0.583
+   },
+   {
+    "pitch": 10,
+    "w_mod_p": 6,
+    "acc": 0.333
+   },
+   {
+    "pitch": 12,
+    "w_mod_p": 0,
+    "acc": 0.625
+   },
+   {
+    "pitch": 14,
+    "w_mod_p": 12,
+    "acc": 0.542
+   },
+   {
+    "pitch": 16,
+    "w_mod_p": 0,
+    "acc": 0.417
+   },
+   {
+    "pitch": 20,
+    "w_mod_p": 16,
+    "acc": 0.708
+   },
+   {
+    "pitch": 24,
+    "w_mod_p": 0,
+    "acc": 0.375
+   },
+   {
+    "pitch": 28,
+    "w_mod_p": 12,
+    "acc": 0.875
+   },
+   {
+    "pitch": 32,
+    "w_mod_p": 0,
+    "acc": 0.667
+   },
+   {
+    "pitch": 38,
+    "w_mod_p": 20,
+    "acc": 0.542
+   },
+   {
+    "pitch": 44,
+    "w_mod_p": 8,
+    "acc": 0.708
+   },
+   {
+    "pitch": 50,
+    "w_mod_p": 46,
+    "acc": 0.667
+   },
+   {
+    "pitch": 56,
+    "w_mod_p": 40,
+    "acc": 0.542
+   },
+   {
+    "pitch": 60,
+    "w_mod_p": 36,
+    "acc": 0.667
+   },
+   {
+    "pitch": 70,
+    "w_mod_p": 26,
+    "acc": 0.583
+   },
+   {
+    "pitch": 80,
+    "w_mod_p": 16,
+    "acc": 0.667
+   }
+  ]
+ },
+ "verify_max_diff_same_scene": {
+  "negative": {
+   "8": 0.0,
+   "16": 0.0,
+   "33": 0.787358,
+   "70": 0.953424
+  },
+  "rowmod": {
+   "8": 0.0,
+   "16": 0.0,
+   "33": 0.726184,
+   "70": 0.858812
+  },
+  "positive(随动标记v2)": {
+   "8": 0.196391,
+   "16": 0.202386,
+   "33": 0.720921,
+   "70": 0.905912
+  }
+ },
+ "interpretation": {
+  "divisible(p|96)": "diff=0（两假设逐位相同，算术必然）→ acc 0.533≈chance ✓ 干净成立",
+  "nondivisible": "结构性缝证据存在（diff 0.7-0.95）→ acc 0.621>chance：分类器部分学会利用边界证据，但远未解决（两假设差约80%动态范围）→ 旧叙事'两组都chance'需修正"
+ }
+}
